@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: 30vh;
+    background-color: darkgrey;
+}
+
+main {
+    height: 60vh;
+    background-color: lightgrey;
+    display: flex;
+}
+footer {
+    height: 20vh;
+    background-color:  darkgrey;
+}
